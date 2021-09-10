@@ -12,4 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM golang:onbuild
+#FROM golang:onbuild
+#FROM golang:1.6.3-onbuild
+#FROM golang:1.15-alpine
+FROM golang:1.8-onbuild
+#FROM golang
